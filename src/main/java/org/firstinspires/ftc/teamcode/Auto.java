@@ -52,7 +52,7 @@ public class Auto extends OpMode {
      * @see com.qualcomm.robotcore.eventloop.opmode.OpMode#loop()
      */
 
-    public void moveForward(int pos1, int newTime) {
+    public void moveForward(double pos1, int newTime) {
         while(runtime.seconds() <= (runtime.seconds() + newTime)) {
             backRight.setPower(pos1);
             backLeft.setPower(pos1);
