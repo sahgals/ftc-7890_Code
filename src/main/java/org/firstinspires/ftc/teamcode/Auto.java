@@ -30,10 +30,7 @@ public class Auto extends OpMode {
     @Override
     public void init_loop() {
 
-        double rStick = gamepad1.right_stick_y;
-        double lStick = gamepad1.left_stick_y;
-        double rTrigger = gamepad1.right_trigger;
-
+      
 
 
 
@@ -62,15 +59,10 @@ public class Auto extends OpMode {
 
     @Override
     public void start() {
-        init();
-        double rStick = gamepad1.right_stick_y;
-        double lStick = gamepad1.left_stick_y;
-        double rTrigger = gamepad1.right_trigger;
+        loop();
+       
 
 
-
-        backRight.setPower(rStick);
-        backLeft.setPower(lStick);
 
 
 
