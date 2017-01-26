@@ -18,9 +18,7 @@ public class Auto extends OpMode {
     DcMotor backLeft;
     @Override
     public void init() {
-
-
-
+		
     }
 
     /*
